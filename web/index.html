@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>User</title>
+</head>
+<body>
+<h1>Add New User</h1>
+<form action="SaveServlet" method="POST">
+    <table border="1">
+        <tr><td>Name : </td><td><input type="text" name="username"/></td></tr>
+        <tr><td>Grade : </td><td><input type="Number" name="grade"/></td></tr>
+        <tr><td>Account Number : </td><td><input type="text" name="bankAccountNumber"/></td></tr>
+        <tr><td>Mobile No : </td><td><input type="text" name="mobileNo"/></td></tr>
+        <tr><td>Address : </td><td><input type="text" name="address"/></td></tr>
+        <tr><td colspan="2"><input type="submit" name="save"/></td></tr>
+    </table>
+</form>
+<br/>
+<a href="ViewServlet">View Employee</a><br/>
+</body>
+</html>
